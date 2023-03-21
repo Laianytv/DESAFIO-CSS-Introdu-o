@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+:root {
+
+    --color-red: #F03C42;
+    --color-light-gray: #CCCCCC;
+    --color-white: #FFFFFF;
+    --bg-bluer: #222374;
+    --text-black: #000000;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
+header {
+
+    background-color: var(--color-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+}
+
+nav h1 {
+    color: var(--color-white);
+    font-size: 18px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-insta {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-insta img {
+    width: 30px;
+    height: 30px;
+    margin: 35px 10px 35px 0px;
+    align-items: center;
+}
+
+header a {
+    color: var(--color-white);
+    font-size: 14px;
+    margin: 41px 0px 40px 0px;
+}
+
+#space {
+    height: 418px;
+    background-color: var(--bg-bluer);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.space-title {
+    color: var(--color-white);
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card-space {
+    height: 127px;
+    background-color: var(--color-light-gray);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.card-space h3 {
+    padding: 20px 0px 0px 20px;
+    font-size: 20;
+    color: var(--text-black);
+}
+
+.card-space p {
+    font-size: 14px;
+    color: var(--text-black);
+    align-items: center;
+    padding: 20px;
+}
+
+#sport {
+    height: 880px;
+    background-color: var(--color-white);
+    display: flex;
+    justify-content: flex-start;
+}
+
+.sport-title {
+    color: var(--color-red);
+    font-size: 32;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sport-card {
+    height: 106px;
+    background-color: var(--bg-bluer);
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sport-card h3 {
+    font-size: 20;
+    color: var(--color-white);
+    padding: 20px 0px 0px 20px;
+}
+
+.sport-card p {
+    font-size: 14px;
+    color: var(--color-white);
+    padding: 20px;
+
+}
+
+footer {
+    min-height: 262px;
+    background-color: var(--text-black);
+    color: var(--color-white);
+    display: flex;
+}
+
+.footer-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-link {
+    margin-top: 60px;
+    justify-content: center;
+    display: inline;
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+}
+
+.card1 img {
+    padding: 10px;
+
+}
+
+.card1 a {
+    font-size: 14px;
+    padding: 20px 20px 20px 0px;
+
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.card2 img {
+    margin: 0px 10px 10px;
+
+}
+
+.card2 a {
+    font-size: 14px;
+}
+
+.footer-campany {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+    margin-bottom: 60px;
+
+}
